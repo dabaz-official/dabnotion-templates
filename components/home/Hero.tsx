@@ -12,14 +12,14 @@ export function Hero() {
       </p>
       <Link
         href="/store"
-        className="text-base font-medium px-4 py-2 rounded-md bg-black text-white hover:bg-neutral-800 shadow"
+        className="text-base font-medium px-4 py-2 rounded-md bg-notion-red text-white hover:bg-notion-red/90 shadow"
       >
         Browse templates
       </Link>
       <Image
         src="/images/hero.avif"
         alt="Notion Second Brain"
-        className="w-full h-auto pt-16"
+        className="w-full h-auto py-16"
         height={996}
         width={1571}
       />
