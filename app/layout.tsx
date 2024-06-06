@@ -2,7 +2,8 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import clsx from 'clsx';
 
-import './globals.css';
+import '@dabaz/styles/globals.css';
+import '@dabaz/styles/tailwind.css';
 import { seo } from '@dabaz/lib/seo';
 import { Header } from '@dabaz/components/layout/Header';
 
