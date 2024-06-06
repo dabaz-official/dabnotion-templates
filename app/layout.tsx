@@ -66,7 +66,7 @@ export default function RootLayout({
     >
       <body className="p-4">
         <Header />
-        <div className="min-h-full bg-white text-black">
+        <div className="pt-4 min-h-full bg-white text-black">
           {children}
         </div>
       </body>
