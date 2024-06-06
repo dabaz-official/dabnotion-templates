@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export function Hero() {
   return (
@@ -15,6 +16,13 @@ export function Hero() {
       >
         Browse templates
       </Link>
+      <Image
+        src="/images/hero.avif"
+        alt="Notion Second Brain"
+        className="w-full h-auto pt-16"
+        height={996}
+        width={1571}
+      />
     </div>
   );
 }
