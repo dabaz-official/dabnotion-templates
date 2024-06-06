@@ -10,7 +10,7 @@ import { faqsItems } from './faqs-items';
 
 export function Faqs() {
   return (
-    <div className="bg-white py-16 md:py-24">
+    <div className="bg-white py-16 md:py-24" id="faqs">
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-4xl font-bold tracking-tight text-black md:text-5xl">

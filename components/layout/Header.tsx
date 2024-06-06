@@ -31,7 +31,7 @@ export function Header() {
       </div>
       <div className="hidden md:flex gap-2 items-center my-auto">
         <Link
-          href="/faqs"
+          href="#faqs"
         >
           <Button variant="ghost" size="notionsm">
             FAQs
@@ -72,7 +72,7 @@ export function Header() {
                   Browse templates
                 </Link>
                 <Link
-                  href="/faqs"
+                  href="#faqs"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-medium leading-7 text-black hover:bg-neutral-50"
                 >
                   FAQs
