@@ -30,10 +30,10 @@ export function Header() {
       </div>
       <div className="hidden md:flex gap-2 items-center my-auto">
         <Link
-          href="/blog"
+          href="/faqs"
           className="text-[0.925rem] font-medium hover:bg-black/5 text-black px-3 py-1.5 rounded-md"
         >
-          Blog
+          FAQs
         </Link>
         <Link
           href="/store"
@@ -69,10 +69,10 @@ export function Header() {
                   Browse templates
                 </Link>
                 <Link
-                  href="/blog"
+                  href="/faqs"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-medium leading-7 text-black hover:bg-neutral-50"
                 >
-                  Blog
+                  FAQs
                 </Link>
               </div>
             </div>
