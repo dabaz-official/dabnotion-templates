@@ -31,7 +31,7 @@ export function Faqs() {
           <Accordion type="single" collapsible className="w-full">
             {faqsItems.map((item) => (
               <AccordionItem key={item.question} value={item.answer}>
-                <AccordionTrigger className="text-base md:text-lg font-semibold text-black">
+                <AccordionTrigger className="text-base md:text-lg font-semibold text-black text-left">
                   {item.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-base text-neutral-600">
