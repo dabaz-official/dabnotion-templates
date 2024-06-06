@@ -1,5 +1,6 @@
 import { Hero } from "@dabaz/components/home/Hero";
 import { Features } from "@dabaz/components/home/Features";
+import { Testimonials } from "@dabaz/components/home/Testimonials";
 
 export default function HomePage() {
   return (
@@ -8,6 +9,7 @@ export default function HomePage() {
         <Hero />
       </div>
       <Features />
+      <Testimonials />
     </main>
   );
 }
