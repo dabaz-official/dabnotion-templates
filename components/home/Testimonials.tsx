@@ -1,6 +1,8 @@
 import Image from 'next/image';
 
 import { testimonialItems } from '@dabaz/components/home/testimonial-items';
+import clsx from 'clsx';
+
 
 export function Testimonials() {
   return (
@@ -15,11 +17,11 @@ export function Testimonials() {
           </p>
         </div>
         <div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2 py-8">
-          {testimonialItems.main.map((item) => (
+          {testimonialItems.featured.map((item) => (
             <div key={item.body} className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
               <figure className="mt-10 flex flex-auto flex-col justify-between text-center mx-auto">
                 <blockquote className="text-lg leading-8 text-black">
-                  <p>{item.body}</p>
+                  <p>&ldquo;{item.body}&rdquo;</p>
                 </blockquote>
                 <figcaption className="mt-10 flex flex-col items-center gap-x-6 mx-auto gap-4">
                   <Image
@@ -40,8 +42,18 @@ export function Testimonials() {
             </div>
           ))}
         </div>
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none text-center">
-  
+        <div className="mx-auto mt-16 md:flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none hidden">
+          <div className="-mt-8 sm:columns-2 sm:text-[0] lg:columns-3">
+            {testimonialItems.others.map((testimonial) => (
+              <div key={testimonial.body} className="pt-4 sm:inline-block sm:w-full sm:px-2">
+                <figure className="rounded-2xl bg-neutral-100 p-8 text-sm leading-6">
+                  <blockquote className="text-black md:text-base">
+                    <p>{`“${testimonial.body}”`}</p>
+                  </blockquote>
+                </figure>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
