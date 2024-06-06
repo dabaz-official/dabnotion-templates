@@ -48,18 +48,18 @@ const features = [
 
 export function Features() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-16 md:py-24">
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-4xl font-bold tracking-tight text-black sm:text-5xl">
+          <h2 className="text-4xl font-bold tracking-tight text-black md:text-5xl">
             Stop feeling overwhelmed
           </h2>
-          <p className="mt-6 text-lg leading-8 text-black">
+          <p className="mt-6 text-lg md:text-xl leading-8 text-black font-medium">
             Use our Notion templates to stay organized with yourself, your team, or your company. 
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none text-center">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-4 gap-y-4 lg:max-w-none lg:grid-cols-3">
+          <dl className="grid grid-cols-1 gap-x-4 gap-y-4 sm:grid-cols-2 md:grid-cols-3 mx-auto">
             {features.map((feature) => (
               <div key={feature.name} className="flex flex-col bg-neutral-100 p-8 rounded-xl">
                 <dt className="text-base font-semibold leading-7 text-black">
