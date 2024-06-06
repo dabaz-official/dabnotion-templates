@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import clsx from 'clsx';
 
 import '@dabaz/styles/globals.css';
 import '@dabaz/styles/tailwind.css';
 import { seo } from '@dabaz/lib/seo';
 import { Header } from '@dabaz/components/layout/Header';
+import { fontSans } from '@dabaz/fonts/inter';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://notion.dabaz.me'),
@@ -47,12 +47,6 @@ export const metadata: Metadata = {
     },
   },
 };
-
-const fontSans = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-sans',
-});
 
 export default function RootLayout({
   children,
