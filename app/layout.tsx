@@ -4,6 +4,7 @@ import clsx from 'clsx';
 
 import './globals.css';
 import { seo } from '@dabaz/lib/seo';
+import { Header } from '@dabaz/components/layout/Header';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://notion.dabaz.me'),
@@ -63,8 +64,11 @@ export default function RootLayout({
       className={clsx('h-full antialiased', fontSans.variable)}
       suppressHydrationWarning
     >
-      <body className="flex min-h-full bg-white text-black">
-        {children}
+      <body className="p-4">
+        <Header />
+        <div className="min-h-full bg-white text-black">
+          {children}
+        </div>
       </body>
     </html>
   );
