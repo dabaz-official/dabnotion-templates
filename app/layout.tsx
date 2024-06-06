@@ -67,7 +67,7 @@ export default function RootLayout({
     >
       <body className="mx-auto max-w-7xl p-4 sm:px-6 lg:px-8 font-sans">
         <Header />
-        <div className="pt-16 pb-48 min-h-full mx-auto max-w-3xl bg-white text-black">
+        <div className="pt-16 pb-48 min-h-full">
           {children}
         </div>
       </body>
