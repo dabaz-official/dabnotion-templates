@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
+import { Button } from '@dabaz/components/ui/button';
+
 export function Hero() {
   return (
     <div className="text-center items-center flex flex-col gap-4">
@@ -12,9 +14,10 @@ export function Hero() {
       </p>
       <Link
         href="/store"
-        className="text-base font-medium px-4 py-2 rounded-md bg-notion-red text-white hover:bg-notion-red/90 shadow"
       >
-        Browse templates
+        <Button variant="red" size="notionlg">
+          Browse templates
+        </Button>
       </Link>
       <Image
         src="/images/hero.avif"

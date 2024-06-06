@@ -3,9 +3,10 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
+import { Dialog, DialogPanel } from '@headlessui/react';
 
 import { Logo } from '@dabaz/components/common/Logo';
-import { Dialog, DialogPanel } from '@headlessui/react';
+import { Button } from '@dabaz/components/ui/button';
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -31,15 +32,17 @@ export function Header() {
       <div className="hidden md:flex gap-2 items-center my-auto">
         <Link
           href="/faqs"
-          className="text-[0.925rem] font-medium hover:bg-black/5 text-black px-3 py-1.5 rounded-md"
         >
-          FAQs
+          <Button variant="ghost" size="notionsm">
+            FAQs
+          </Button>
         </Link>
         <Link
           href="/store"
-          className="text-[0.925rem] font-medium px-3 py-1.5 rounded-md bg-black text-white hover:bg-neutral-800 shadow"
         >
-          Browse templates
+          <Button variant="black" size="notionsm">
+            Browse templates
+          </Button>
         </Link>
       </div>
       <Dialog className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
