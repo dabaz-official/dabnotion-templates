@@ -5,7 +5,7 @@ import { Testimonials } from "@dabaz/components/home/Testimonials";
 export default function HomePage() {
   return (
     <main>
-      <div className="mx-auto max-w-3xl bg-white text-black">
+      <div className="mx-auto max-w-3xl text-black">
         <Hero />
       </div>
       <Features />
