@@ -65,9 +65,9 @@ export default function RootLayout({
       className={clsx('h-full antialiased', fontSans.variable)}
       suppressHydrationWarning
     >
-      <body className="p-4">
+      <body className="mx-auto max-w-7xl p-4 sm:px-6 lg:px-8 font-sans">
         <Header />
-        <div className="pt-4 min-h-full bg-white text-black">
+        <div className="pt-16 pb-48 min-h-full mx-auto max-w-3xl bg-white text-black">
           {children}
         </div>
       </body>
