@@ -19,7 +19,7 @@ const buttonVariants = cva(
         ghost: "hover:bg-black/5 text-black",
         link: "text-neutral-900 underline-offset-4 hover:underline dark:text-neutral-50",
         red: "text-white bg-notion-red hover:bg-notion-red/90",
-        black: "text-white bg-black hover:bg-neutral-800"
+        black: "text-white bg-black hover:bg-black/80"
       },
       size: {
         default: "h-10 px-4 py-2",
