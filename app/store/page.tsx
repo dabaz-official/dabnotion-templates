@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 
 import { seo } from '@dabaz/lib/seo';
 import { StoreHeadings } from '@dabaz/components/store/StoreHeadings';
+import { ProductList } from '@dabaz/components/store/ProductList';
 
 export const metadata: Metadata = {
   title: seo.store.title,
@@ -33,6 +34,7 @@ export default function Page() {
   return (
     <main>
       <StoreHeadings />
+      <ProductList />
     </main>
   )
 }
