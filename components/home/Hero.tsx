@@ -7,10 +7,10 @@ export function Hero() {
   return (
     <div className="text-center items-center flex flex-col gap-4">
       <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
-        Premium Notion Templates
+        Minimalist Notion Templates
       </h1>
       <p className="text-xl md:text-2xl font-medium">
-        A collection of premium Notion templates to boost productivity, organize projects, and enhance personal planning.
+        A collection of minimalist and premium Notion templates to boost productivity, organize projects, and enhance personal planning.
       </p>
       <Link
         href="/store"

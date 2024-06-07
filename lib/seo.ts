@@ -1,7 +1,7 @@
 export const seo = {
   home: {
-    title: "DabNotion - Premium Notion Templates",
-    description: "A collection of premium Notion templates to boost productivity, organize projects, and enhance personal planning.",
+    title: "DabNotion - Minimalist Notion Templates",
+    description: "A collection of minimalist & premium Notion templates to boost productivity, organize projects, and enhance personal planning.",
     url: new URL(
       process.env.NODE_ENV === "production"
         ? "https://notion.dabaz.me"
