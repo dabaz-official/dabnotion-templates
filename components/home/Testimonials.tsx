@@ -18,7 +18,7 @@ export function Testimonials() {
         </div>
         <div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2 py-8">
           {testimonialItems.featured.map((item) => (
-            <div key={item.body} className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
+            <div key={item.body} className="flex flex-col pb-0 md:pb-16 lg:pr-8 xl:pr-20">
               <figure className="mt-10 flex flex-auto flex-col justify-between text-center mx-auto">
                 <blockquote className="text-lg leading-8 text-black">
                   <p>&ldquo;{item.body}&rdquo;</p>
@@ -42,7 +42,7 @@ export function Testimonials() {
             </div>
           ))}
         </div>
-        <div className="mx-auto mt-16 md:flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none hidden">
+        <div className="mx-auto md:flow-root max-w-2xl md:mt-20 lg:mx-0 lg:max-w-none hidden">
           <div className="-mt-8 sm:columns-2 sm:text-[0] lg:columns-3">
             {testimonialItems.others.map((testimonial) => (
               <div key={testimonial.body} className="pt-4 sm:inline-block sm:w-full sm:px-2">
