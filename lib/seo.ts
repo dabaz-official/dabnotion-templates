@@ -10,4 +10,12 @@ export const seo = {
     imageSrc: "https://notion.dabaz.me/images/og.jpg",
     imageAlt: "DabNotion logo with 'DabNotion' on a white background.",
     siteName: "DabNotion",
-  }} as const;
+  },
+  store: {
+    title: "Store",
+    description: "Browse our collection of Notion templates.",
+    imageSrc: "https://notion.dabaz.me/images/og.jpg",
+    imageAlt: "DabNotion logo with 'DabNotion' on a white background.",
+    siteName: "DabNotion",
+  }
+} as const;
