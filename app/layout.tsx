@@ -6,6 +6,7 @@ import '@dabaz/styles/tailwind.css';
 import { seo } from '@dabaz/lib/seo';
 import { Header } from '@dabaz/components/layout/Header';
 import { fontSans } from '@dabaz/fonts/inter';
+import { Footer } from '@dabaz/components/layout/Footer';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://notion.dabaz.me'),
@@ -61,9 +62,10 @@ export default function RootLayout({
     >
       <body className="mx-auto max-w-7xl p-4 sm:px-6 lg:px-8 font-sans">
         <Header />
-        <div className="pt-16 pb-48 min-h-full">
+        <div className="py-16 min-h-full">
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );
