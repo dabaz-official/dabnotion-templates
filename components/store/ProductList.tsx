@@ -6,7 +6,7 @@ const products = {
       id: 1,
       name: 'Everything Bundle',
       tags: ['Personal', 'Finance'],
-      href: 'https://gumroad.com/a/429277395/beygm',
+      href: 'https://gumroad.com/a/295059667/axszr',
       ogPrice: '$1,002',
       price: '$389',
       discount: '%61',
