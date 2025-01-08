@@ -20,9 +20,12 @@ export function Header() {
     )}>
       <nav className="flex justify-between">
         <div className="flex items-center">
-          <Link href="/">
+          <Link href="/" className='flex gap-x-2 items-center'>
             <span className="sr-only">DabNotion</span>
             <Logo className="h-9 w-auto" />
+            <h1 className='text-xl font-semibold tracking-tight'>
+              DabNotion
+            </h1>
           </Link>
         </div>
         <div className="flex md:hidden">
