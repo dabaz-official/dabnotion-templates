@@ -19,7 +19,8 @@ const buttonVariants = cva(
         ghost: "hover:bg-black/5 text-black",
         link: "text-neutral-900 underline-offset-4 hover:underline dark:text-neutral-50",
         red: "text-white bg-notion-red hover:bg-notion-red/90",
-        black: "text-white bg-black hover:bg-black/80"
+        black: "text-white bg-black hover:bg-black/80",
+        blue: "text-white bg-[#0081f2] hover:bg-[#045AC4]"
       },
       size: {
         default: "h-10 px-4 py-2",
@@ -27,7 +28,8 @@ const buttonVariants = cva(
         lg: "h-11 rounded-md px-8",
         icon: "h-10 w-10",
         notionsm: "px-3 py-1.5 text-[0.925rem] rounded-md font-medium",
-        notionlg: "px-4 py-2 text-base rounded-md font-medium shadow"
+        notionlg: "px-4 py-2 text-base rounded-md font-medium shadow",
+        notionxl: "px-5 py-2.5 text-base rounded-lg font-medium shadow"
       },
     },
     defaultVariants: {

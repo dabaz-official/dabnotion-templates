@@ -15,7 +15,7 @@ export function Hero() {
       <Link
         href="/store"
       >
-        <Button variant="red" size="notionlg">
+        <Button variant="blue" size="notionxl">
           Browse templates
         </Button>
       </Link>
