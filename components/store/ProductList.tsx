@@ -4,16 +4,6 @@ const products = {
   bundle: [
     {
       id: 1,
-      name: 'Everything Bundle',
-      tags: ['Personal', 'Finance'],
-      href: 'https://gumroad.com/a/429277395/axszr',
-      ogPrice: '$1,002',
-      price: '$389',
-      discount: '%61',
-      imageSrc: '/images/products/everything-bundle.png',
-    },
-    {
-      id: 2,
       name: 'Resolution Bundle',
       tags: ['Personal'],
       href: 'https://gumroad.com/a/429277395/YkJkr',
@@ -26,14 +16,22 @@ const products = {
   personal: [
     {
       id: 1,
-      name: 'Notion Second Brain',
+      name: 'Second Brain',
       tags: ['Personal', 'Project Management'],
       href: 'https://gumroad.com/a/429277395/qwzxl',
-      price: 'From $79',
+      price: '$99',
       imageSrc: '/images/products/second-brain.png',
     },
     {
       id: 2,
+      name: 'GTD Dashboard',
+      tags: ['Personal', 'Project Management'],
+      href: 'https://gumroad.com/a/429277395/ulzyy',
+      price: 'From $39',
+      imageSrc: '/images/products/gtd-dashboard.webp',
+    },
+    {
+      id: 3,
       name: 'Resolution Bundle',
       tags: ['Personal'],
       href: 'https://gumroad.com/a/429277395/YkJkr',
@@ -43,21 +41,21 @@ const products = {
       imageSrc: '/images/products/resolution-bundle.png',
     },
     {
-      id: 3,
+      id: 4,
       name: 'Finance Tracker',
       tags: ['Personal', 'Finance'],
       href: 'https://gumroad.com/a/429277395/beygm',
-      price: '$49',
+      price: '$39',
       imageSrc: '/images/products/finance-tracker.png',
     },
   ],
   pro: [
     {
       id: 1,
-      name: 'Notion Second Brain',
+      name: 'Second Brain',
       tags: ['Personal', 'Project Management'],
       href: 'https://gumroad.com/a/429277395/qwzxl',
-      price: 'From $79',
+      price: '$99',
       imageSrc: '/images/products/second-brain.png',
     },
     {
@@ -65,7 +63,7 @@ const products = {
       name: 'Freelance OS',
       tags: ['Personal', 'Professional', 'Business'],
       href: 'https://gumroad.com/a/429277395/gpckg',
-      price: 'From $79',
+      price: '$79',
       imageSrc: '/images/products/freelance-os.jpeg',
     },
     {
@@ -73,7 +71,7 @@ const products = {
       name: 'Content OS',
       tags: ['Personal', 'Professional', 'Business', 'Content'],
       href: 'https://gumroad.com/a/429277395/vhdyw',
-      price: 'From $49',
+      price: '$79',
       imageSrc: '/images/products/content-os.png',
     },
     {
@@ -81,14 +79,14 @@ const products = {
       name: 'Content Calendar',
       tags: ['Personal', 'Professional', 'Business', 'Content'],
       href: 'https://gumroad.com/a/429277395/wxtvs',
-      price: 'From $0',
+      price: '$0',
       imageSrc: '/images/products/content-calendar.png',
     },
   ],
   course: [
     {
       id: 1,
-      name: 'Notion Creator Course',
+      name: 'Creator Course',
       tags: ['Professional', 'Business', 'Course'],
       href: 'https://gumroad.com/a/429277395/unndvl',
       price: '$149',
